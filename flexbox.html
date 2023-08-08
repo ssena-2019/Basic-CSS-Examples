@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 75%;
+            min-height: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row; /*default özellik*/
+            flex-wrap: wrap;
+            /* justify-content:flex-start; */
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        }
+
+        .box {
+            text-align: center;
+            margin: 10px;
+            background-color: #f2f2f2;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+
+        }
+        .box-1 {
+            background: rgb(230, 78, 78);
+            flex: 1;
+            /* flex-grow: 1; */
+        }
+        .box-2 {
+            background: rgb(140, 211, 102);
+            flex: 1;
+            /* flex-grow: 1; */
+            /* align-self: flex-end; */
+        }
+        .box-3 {
+            background: rgb(104, 201, 222);
+            flex: 1;
+            /* flex-grow: 1; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-1">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ad!</p>
+        </div>
+        <div class="box box-2">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ad!</p>
+        </div>
+        <div class="box box-3">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ad!</p>
+        </div>x
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth child selector</title>
+
+    <style>
+
+        /* p {
+            font-size: 1.5em;
+            color: aliceblue;
+        }
+        /* p:nth-child(2) {
+            color: blueviolet;
+        } 
+        p:nth-child(even){
+            background-color: rgb(188, 151, 223);
+        }
+        p:nth-child(odd){
+            background-color: rgb(113, 202, 205);
+        } */
+
+        ul {
+            font-size: 20px;
+            list-style-type: disc;
+        }
+        ul li:nth-child(2n){
+            color: red;
+        }
+        ul li:nth-child(2n+1){
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quas?
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quas?
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quas?
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quas?
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quas?
+    </p> -->
+
+    <ul>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive - CSS Units</title>
+
+    <!-- Responsive Units
+    em, rem, %, vw, vh -->
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* div {
+            font-size: 1.5em;
+        } 
+        /* p {
+            font-size: 75%;
+            /* padding: 1.5em; 
+        } */
+
+        .background {
+            background: url("images/Gumball.png") center center no-repeat;
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            color: rgb(232, 29, 29);
+            align-items: center;
+            padding: 10rem;
+
+        }
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+
+        @media(max-width: 500px) {
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+            }
+            p {
+                font-size: 1rem;
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, laudantium!</p>
+    </div> -->
+
+    <div class="background">
+        <h1>Welcome to the Site</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eius.</p>
+    </div>
+</body>
+</html>
